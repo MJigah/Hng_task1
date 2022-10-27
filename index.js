@@ -19,7 +19,7 @@ const getData = {
     bio: typeof bio,
   };
 
-app.get("/send", (req, res) => {
+app.get("/", (req, res) => {
   res.send(getData);
 });
 
