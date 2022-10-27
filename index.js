@@ -7,16 +7,16 @@ const PORT = process.env.PORT || 3000;
 // app.use(cors())
 app.use(express.json());
 
-var slackUsername = "String";
+var slackUsername = "Jigah Miracle";
 var backend = true;
-var age = 1;
-var bio = "String";
+var age = 111;
+var bio = "Hi, I am Jigah  Miracle, a backend Developer!";
 
 const getData = {
-    slackUsername: typeof slackUsername,
-    backend: typeof backend,
-    age: typeof age,
-    bio: typeof bio,
+    slackUsername,
+    backend,
+    age,
+    bio,
   };
 
 app.get("/", (req, res) => {
