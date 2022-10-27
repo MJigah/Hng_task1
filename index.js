@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 3000;
 // app.use(cors())
 app.use(express.json());
 
-var slackUsername = "Jigah";
+var slackUsername = "m_jigah";
 var backend = true;
 var age = 21;
 var bio = "Hi, I am Jigah  Miracle, a backend Developer!";
