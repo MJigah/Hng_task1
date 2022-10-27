@@ -23,9 +23,13 @@ const getData = {
   bio,
 };
 
+app.get("/favicon.ico", function (req, res) {
+  res.status(204);
+  res.end();
+});
 
 app.get("/", (req, res) => {
-  res.setHeader('content-type', 'text/plain');
+  res.setHeader("content-type", "text/plain");
   res.send(JSON.stringify(getData));
 });
 
