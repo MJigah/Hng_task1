@@ -30,7 +30,7 @@ app.get("/favicon.ico", function (req, res) {
 
 app.get("/", (req, res) => {
   // res.setHeader("content-type", "text/plain");
-  res.send(JSON.stringify(getData));
+  res.send(getData);
 });
 
 app.listen(PORT, () => {
