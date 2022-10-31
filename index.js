@@ -29,7 +29,6 @@ app.get("/favicon.ico", function (req, res) {
 });
 
 app.get("/", (req, res) => {
-  // res.setHeader("content-type", "text/plain");
   res.send(getData);
 });
 
