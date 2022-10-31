@@ -29,7 +29,7 @@ app.get("/favicon.ico", function (req, res) {
 });
 
 app.get("/", (req, res) => {
-  res.send(getData);
+  res.json(getData);
 });
 
 app.listen(PORT, () => {
